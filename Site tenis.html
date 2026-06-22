@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tenis - Sportul eleganței</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #d6eaf8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #0059b3;
+            padding: 15px 10px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 30px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            border-bottom: 2px solid #0059b3;
+            padding-bottom: 5px;
+        }
+
+        img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(0, 123, 255, 0.6);
+        }
+
+        ul, ol {
+            padding-left: 20px;
+        }
+
+        .players-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            text-align: center;
+        }
+
+        .card img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        .card h3 {
+            margin-top: 10px;
+        }
+
+        @media (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Tenis - Sportul eleganței și performanței</h1>
+</header>
+
+<nav>
+    <a href="#descriere">Descriere</a>
+    <a href="#istorie">Istorie</a>
+    <a href="#jucatori">Jucători</a>
+    <a href="#turnee">Turnee</a>
+    <a href="#evenimente">Evenimente</a>
+    <a href="#glosar">Glosar</a>
+</nav>
+
+<section id="descriere">
+    <h2>Descrierea Tenisului</h2>
+    <p>Tenisul este un sport cu rachetă care poate fi jucat individual împotriva unui singur adversar (simplu) sau între două echipe a câte doi jucători (dublu). Fiecare jucător folosește o rachetă de tenis pentru a lovi o minge de cauciuc peste un fileu și în terenul adversarului. Acest sport implică forță, agilitate, strategie și un psihic puternic.</p>
+    <img src="https://ruskicar-tenis.si/wp-content/uploads/2024/07/AxMRz7JZ.jpeg" alt="Minge de tenis pe teren">
+</section>
+
+<section id="istorie">
+    <h2>Istoria Tenisului</h2>
+    <p>Tenisul a apărut în Franța secolului al XII-lea, dar a devenit cunoscut în forma actuală în Anglia, în secolul al XIX-lea. Wimbledon, organizat pentru prima dată în 1877, este cel mai vechi turneu de tenis din lume.</p>
+    <img src="https://images.twinkl.co.uk/tw1n/image/private/s--7WpJoh92--/c_fill,g_auto:subject,h_700,w_1200/q_auto:eco/u/newsroom/admin-1719406513.jpg" alt="Wimbledon">
+</section>
+
+<section id="jucatori">
+    <h2>Jucători Celebri</h2>
+    <div class="players-grid">
+        <div class="card">
+            <img src="https://www.tennisworldfr.com/imgb/13105/roger-federer-mettra-aux-encheres-pas-moins-de-320-articles-personnels.webp" alt="Roger Federer">
+            <h3>Roger Federer</h3>
+            <p>Maestrul eleganței și deținătorul a 20 de titluri de Grand Slam.</p>
+        </div>
+        <div class="card">
+            <img src="https://media.npr.org/assets/img/2022/06/14/gettyimages-1231196817-1fe91141db34f2b46e4e3eb383043f391de24ec1.jpg" alt="Serena Williams">
+            <h3>Serena Williams</h3>
+            <p>O legendă a tenisului feminin, cu 23 de titluri de Grand Slam.</p>
+        </div>
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Rafael_Nadal_%2816207904747%29.jpg/250px-Rafael_Nadal_%2816207904747%29.jpg" alt="Rafael Nadal">
+            <h3>Rafael Nadal</h3>
+            <p>Regele zgurii, de 14 ori campion la Roland Garros.</p>
+        </div>
+        <div class="card">
+            <img src="https://ichef.bbci.co.uk/ace/standard/3840/cpsprodpb/2d83/live/cd6fe910-e335-11ef-a319-fb4e7360c4ec.jpg" alt="Simona Halep">
+            <h3>Simona Halep</h3>
+            <p>Românca dublă campioană de Grand Slam, cunoscută pentru tenacitate.</p>
+        </div>
+    </div>
+</section>
+
+<section id="turnee">
+    <h2>Turnee Importante</h2>
+    <ol>
+        <li><b>Wimbledon</b> - Anglia, iarbă, tradiție pură.</li>
+        <li><b>Roland Garros</b> - Franța, teren de zgură, tehnică și răbdare.</li>
+        <li><b>US Open</b> - SUA, atmosferă spectaculoasă, joc rapid.</li>
+        <li><b>Australian Open</b> - Australia, primul Grand Slam al anului.</li>
+    </ol>
+    <img src="https://theindianface.com/cdn/shop/articles/5.jpg?v=1646659145" alt="Imagine cu turneele de Grand Slam">
+</section>
+
+<section id="evenimente">
+    <h2>Evenimente Celebre</h2>
+    <ul>
+        <li>Finala epică Federer vs Nadal, Wimbledon 2008.</li>
+        <li>Serena Williams, record istoric de titluri în Era Open.</li>
+        <li>Djokovic cucerește toate cele 4 Grand Slam-uri.</li>
+        <li>Simona Halep, campioană la Roland Garros 2018 și Wimbledon 2019.</li>
+    </ul>
+</section>
+
+<section id="glosar">
+    <h2>Glosar de Termeni</h2>
+    <ul>
+        <li><b>Ace</b> – Serviciu care nu este atins de adversar.</li>
+        <li><b>Break</b> – Când un jucător câștigă game-ul pe serviciul adversarului.</li>
+        <li><b>Set</b> – O unitate de scor; câștigată de jucătorul care ajunge la 6 game-uri cu o diferență de minim 2.</li>
+        <li><b>Tie-break</b> – Joc decisiv pentru set, jucat la 6-6.</li>
+    </ul>
+</section>
+
+</body>
+</html>
